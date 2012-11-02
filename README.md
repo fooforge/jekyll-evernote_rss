@@ -50,7 +50,7 @@ A working example can be seen on [fooforge.com](http://fooforge.com/bookmarks.ht
 ## Development
 
 * Source hosted at [GitHub](https://github.com/fooforge/jekyll-evernote_rss)
-* Report issues/Questions/Feature requests on [GitHub](https://github.com/fooforge/jekyll-evernote_rss) as well
+* Report issues/Questions/Feature requests on [GitHub](https://github.com/fooforge/jekyll-evernote_rss/issues) as well
 
 Pull requests are very welcome! Make sure your patches are well tested.
 
