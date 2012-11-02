@@ -47,6 +47,12 @@ The RSS feed provides the following items:
     
 A working example can be seen on [fooforge.com](http://fooforge.com/bookmarks.html).
 
+## Known bugs
+
+### Direct links in Safari
+
+When trying to access a [specific article](http://www.evernote.com/pub/fooforge/public#n=5984d261-2ad4-4fb6-ae0a-2b6b2d18cc2a) in Safari you'll get redirected to the public notebook's [home](http://www.evernote.com/pub/fooforge/public) URL. Told Evernote about it, hopefully they'll get this fixed soon.
+
 ## Development
 
 * Source hosted at [GitHub](https://github.com/fooforge/jekyll-evernote_rss)
