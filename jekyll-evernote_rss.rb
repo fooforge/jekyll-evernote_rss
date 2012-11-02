@@ -23,7 +23,7 @@ class EvernoteRSS
         item = OpenStruct.new
         item.title = i.title
         item.url = i.url
-        item.published = i.published
+        item.published = i.published.strftime("%Y-%m-%d, %I:%M %p (in UTC)")
         item.summary = i.summary
 
         entries << item
