@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-This is a small [jekyll](https://github.com/mojombo/jekyll) plugin for integrating a public Evernote notebook into your blog via RSS. The code's not pretty yet, but functional.
+This is a small [Jekyll](https://github.com/mojombo/jekyll) plugin for integrating a public Evernote notebook into your blog via RSS. The code's not pretty yet, but functional.
 
 Kudos to [Christian Hellsten](https://github.com/christianhellsten) for code inspiration.
 
@@ -44,7 +44,11 @@ The RSS feed provides the following items:
 * `{{ item.title }}` - The note's title
 * `{{ item.published }}` - Date of publication
 * `{{ item.summary }}` - Preview of the note's content
-    
+
+**Please note** that the content only gets updated when you regenerate your Jekyll blog. You might wanna setup a cron job or (better) use a provisioning tool like [Chef](http://www.opscode.com/chef) to keep things updated at regular intervals.
+
+I've also written a simple [chef cookbook](https://github.com/fooforge/chef-cookbook_jekyll) that'll deploy your Jekyll blog.
+
 A working example can be seen on [fooforge.com](http://fooforge.com/bookmarks.html).
 
 ## Known bugs
